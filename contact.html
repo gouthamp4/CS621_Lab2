@@ -1,0 +1,175 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Contact</title>
+    <style>
+         * {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+       }
+       body{
+        background-color: aquamarine;
+       }
+       ul{
+        background-color: aquamarine;
+        list-style: none;
+        display: inline;
+        z-index: 5;
+        top: 0;
+        
+       }
+       li a{
+        float: right;
+        background-color: aquamarine;
+        color: brown;
+        padding: 25px;
+        text-decoration: none;
+       }
+       li a:hover{
+        margin:10px;
+        padding: 15px;
+        background-color: black;
+        color:white;
+        transition-duration: 1s;
+       }
+       #contact {
+        clear: both;
+        margin:50px;
+       }
+       #name{
+        margin-top: 10px;
+        margin-bottom: 10px;
+        width: 50%;
+        border: 1px solid blueviolet;
+        border-radius: 5px;
+        padding:15px;  
+       }
+       #phone{
+        margin-top: 10px;
+        margin-bottom: 10px;
+        width: 50%;
+        border: 1px solid blueviolet;
+        border-radius: 5px;
+        padding:15px;  
+       }
+       #email{
+        margin-top: 10px;
+        margin-bottom: 10px;
+        width: 50%;
+        border: 1px solid blueviolet;
+        border-radius: 5px;
+        padding:15px;  
+       }
+       #message{
+        margin-top: 10px;
+        margin-bottom: 10px;
+        width: 50%;
+        border: 1px solid blueviolet;
+        border-radius: 5px;
+        padding:35px;  
+        padding-left: 15px;
+       }
+       #submit{
+        
+        background-color: aquamarine;
+        cursor: pointer;
+        box-shadow: 5px 5px 5px grey;
+        border-radius:5px ;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-left: 25px;
+        padding-right: 25px;
+       }
+
+       #submit:hover{
+            box-shadow: 5px 5px 8px rgb(6, 82, 85);
+       }
+       .fa-facebook{
+        color:crimson;
+        font-size: 35px;
+        padding:15px;
+        text-shadow: 5px 5px 8px rgb(6, 82, 85);
+        
+       }
+       .fa-facebook:hover{
+        text-shadow: 0px 0px 0px black;
+        box-shadow: 5px 5px 5px rgb(6, 82, 85);
+       }
+       .fa-instagram{
+        color: crimson;
+        font-size: 35px;
+        padding:15px;
+        text-shadow: 5px 5px 5px rgb(6, 82, 85);
+        
+       }
+       .fa-instagram:hover{
+        text-shadow: 0px 0px 0px black;
+        box-shadow: 5px 5px 5px rgb(6, 82, 85);
+       }
+       .fa-twitter{
+        color: crimson;
+        font-size: 35px;
+        padding:15px;
+        text-shadow: 5px 5px 5px rgb(6, 82, 85);
+        
+       }
+       .fa-twitter:hover{
+        text-shadow: 0px 0px 0px black;
+        box-shadow: 5px 5px 5px rgb(6, 82, 85);
+       }
+       .fa-github{
+        color: crimson;
+        font-size: 35px;
+        padding:15px;
+        text-shadow: 5px 5px 5px rgb(6, 82, 85);
+        
+       }
+       .fa-github:hover{
+        text-shadow: 0px 0px 0px black;
+        box-shadow: 5px 5px 5px rgb(6, 82, 85);
+       }
+       #social{
+        margin: 25px;
+       }
+    </style>
+</head>
+<body>
+    <div>
+        <ul>
+            <li><a href="web.html" style="float: left;">Home</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="contact.html">Contact Me</a></li>
+            <li><a href="resume.html">Resume</a></li>
+        </ul>
+    </div>
+    <div id="contact">
+        <form action="contact.html">
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" placeholder="Enter your full name here">
+            <br>
+            <label for="phone">Phone:</label><br>
+            <input type="number" id="phone" placeholder="+1 999-999-9999">
+            <br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" placeholder="username@doamin.com">
+            <br>
+            <label for="message">Message:</label><br>
+            <input type="text" id="message" placeholder="Enter your message here">
+            <br>
+            <input type="submit" name="Submit" id="submit">
+        </form>
+        <div id="social">
+            <a href="https://www.facebook.com/"><i class="fa fa-facebook"></i></a>
+             <a href="https://www.instagram.com"><i class="fa fa-instagram"></i></a>
+            <a href="https://www.twitter.com"><i class="fa fa-twitter"></i></a>
+            <a href="https://www.github.com"><i class="fa fa-github"></i></a>
+        </div>
+        
+    
+    </div>
+</body>
+</html>
